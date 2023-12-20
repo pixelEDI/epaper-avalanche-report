@@ -7,7 +7,7 @@
 | <img src="images/epaper4.jpg" height="250"> | <img src="images/epaper2.jpg" height="250"> | <img src="images/epaper3.jpg" height="250"> |
 
 
-Aktuller Lawinenlagebericht. Daten werden in einem fixen Zeitintervall aktualisiert und auf einem e-Paper Display dargestellt. 
+Aktueller Lawinenlagebericht. Daten werden in einem fixen Zeitintervall aktualisiert und auf einem e-Paper Display dargestellt. 
 
 #### Open-Data
 * Sämtliche Daten vom Lawinenlagebericht stammen von: 
