@@ -2,9 +2,10 @@
 
 ## General info 
 
-<img src="images/epaper4.jpg" height="250">
-<img src="images/epaper2.jpg" height="250">
-<img src="images/epaper3.jpg" height="250">
+|  | |  |
+|--------|--------|--------|
+| <img src="images/epaper4.jpg" height="250"> | <img src="images/epaper2.jpg" height="250"> | <img src="images/epaper3.jpg" height="250"> |
+
 
 Aktuller Lawinenlagebericht. Daten werden in einem fixen Zeitintervall aktualisiert und auf einem e-Paper Display dargestellt. 
 
@@ -32,18 +33,6 @@ Aktuller Lawinenlagebericht. Daten werden in einem fixen Zeitintervall aktualisi
   * JSON with avalanche data is sent via MQTT to ESP32
   * Show data on E-INK
 
-### Flowchart
-
-```mermaid
-graph TD;
-    A[ESP32 XIAO] -->|Deepsleep| B[😴 zzZZzzZZ 59 mins]
-    A -->|Awake| C[📣 MQTT to Node-RED]
-    C -->|HTTP-Request| E[📣 GET Avalanche Report]
-    E -->|Process JSON| F[📣 Filter Region and Create JSON]
-    F -->|Send MQTT to ESP32| G[📣 Display Data on e-Paper]
-    G -->|Going to Sleep| B
-```
-
 ### Beispiel JSON 
 JSON wird am ESP32 per MQTT empfangen und verarbeitet
 ```JSON
@@ -61,3 +50,7 @@ https://www.printables.com/de/model/687736-29-e-paper-stand
 
 
 Have fun | pixelEDI.eu
+
+
+Here is a simple flow chart:
+
