@@ -52,5 +52,3 @@ https://www.printables.com/de/model/687736-29-e-paper-stand
 Have fun | pixelEDI.eu
 
 
-Here is a simple flow chart:
-
